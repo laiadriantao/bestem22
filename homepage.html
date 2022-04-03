@@ -34,13 +34,10 @@
                         <a class="nav-link" href="#">Acasă <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Info</a>
+                        <a class="nav-link" href="info.html">Info</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Legende</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Despre</a>
+                    <li class="nav-item">                         
+                        <a class="nav-link" href="aboutus.html">Despre</a>
                     </li>
                 </ul>
                 </div>
@@ -49,32 +46,36 @@
     </header>
 
     <main>
-    
-
+        
         <div class="container">
             <div class = "row">
                 <div class ="col">
-                    <div class ="bg-secondary text-white">
+                    <div class ="bg-secondary text-white fw-bold">
                         <div class = "card-body">
-                        Rosu -> Inaccesibil , Albastru -> Accesibil, Semn -> Rampa de acces.
+                            <p> <center>🟥 -> Inaccesibil ,  🟦 -> Accesibil, <img src="marker_map.png"> -> Rampă de acces. </center></p>
                         </div>
                     </div>
                 </div>
             </div>
-        
-            <iframe width="100%" 
-            height="900"" 
-            frameborder="0"
-            allowfullscreen src="//umap.openstreetmap.fr/en/map/upbwca_741690?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false">
-            </iframe>
+            <div class ="row">
+                <iframe width="100%" 
+                height="900"" 
+                frameborder="0"
+                allowfullscreen src="//umap.openstreetmap.fr/en/map/upbwca_741690?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false">
+                </iframe>
+            </div>
         </div>
 
     </main>
     
+    
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Links  -->
-    <section class="">
+    <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
@@ -82,7 +83,7 @@
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>WCAUPB
+              <i class="fas fa-gem "></i>WCAUPB
             </h6>
             <p>
               Pentru a te ajuta să ajungi în continuare oriunde dorești.
@@ -101,9 +102,6 @@
               <a href="#!" class="text-reset">Info</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Legende</a>
-            </p>
-            <p>
               <a href="#!" class="text-reset">Despre</a>
             </p>
           </div>
@@ -115,18 +113,18 @@
             <h6 class="text-uppercase fw-bold mb-4">
               Contact
             </h6>
-            <p><i class="fas fa-home me-3"></i>București, 060042, Corp AN, Splaiul Independentei 313</p>
+            <p><i class="fas fa-home"></i>București, 060042, Corp AN, Splaiul Independentei 313</p>
             <p>
-              <i class="fas fa-envelope me-3"></i>
+              <i class="fas fa-envelope "></i>
               info.wca@upb.ro
             </p>
-            <p><i class="fas fa-phone me-3"></i> +40735235241</p>
-            <p><i class="fas fa-print me-3"></i> +40735665545</p>
+            <p><i class="fas fa-phone "></i> +40735235241</p>
+            <p><i class="fas fa-print "></i> +40735665545</p>
           </div>
           <!-- Grid column -->
         </div>
         <!-- Grid row -->
-      </div>
+    
     </section>
     <!-- Section: Links  -->
   
@@ -135,8 +133,11 @@
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="">WCAUPB</a>
     </div>
+</div>
     <!-- Copyright -->
   </footer>
-  <!-- Footer -->
+    <!-- Footer -->
+
 </body>
+
 </html>
