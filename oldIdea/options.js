@@ -2,6 +2,9 @@ let page = document.getElementById("buttonDiv");
 let selectedClassName = "current";
 const presetButtonColors = ["#3aa757", "#e8453c", "#f9bb2d", "#4688f1"];
 
+//This page is the option page, inside here we change the color we want to change the page with
+
+
 // Reacts to a button click by marking marking the selected button and saving
 // the selection
 function handleButtonClick(event) {
