@@ -1,2 +1,2 @@
 # bestem22
-The bestem2022 hackathon app
+The bestem2022 hackathon app for the Microsoft challenge
